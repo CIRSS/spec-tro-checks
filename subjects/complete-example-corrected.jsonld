@@ -1,0 +1,191 @@
+{
+    "@context": [
+        {
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "trov": "https://w3id.org/trace/trov/0.1#",
+            "schema": "https://schema.org/",
+            "@base": "https://tro.example.org/tro/2f8a1c94-7b3e-4d21-9f6a-0c5e83b7d410/"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "tro",
+            "@type": [
+                "trov:TransparentResearchObject",
+                "schema:CreativeWork"
+            ],
+            "trov:vocabularyVersion": "0.1",
+            "schema:name": "Example analysis TRO",
+            "schema:description": "TRO from an analysis reading a data file and a script, producing one output",
+            "schema:dateCreated": "2024-06-15T14:30:00",
+            "trov:wasAssembledBy": {
+                "@id": "trs",
+                "@type": [
+                    "trov:TrustedResearchSystem",
+                    "schema:Organization"
+                ],
+                "schema:name": "Example TRS",
+                "schema:description": "A TRS that enforces Internet isolation",
+                "trov:publicKey": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n...\n-----END PGP PUBLIC KEY BLOCK-----\n",
+                "trov:hasCapability": [
+                    {
+                        "@id": "trs/capability/0",
+                        "@type": "trov:CanProvideInternetIsolation"
+                    }
+                ]
+            },
+            "trov:createdWith": {
+                "@type": "schema:SoftwareApplication",
+                "schema:name": "tro-utils",
+                "schema:softwareVersion": "0.2.2"
+            },
+            "trov:wasTimestampedBy": {
+                "@id": "tsa",
+                "@type": "trov:TimeStampingAuthority",
+                "trov:publicKey": "-----BEGIN PUBLIC KEY-----\n...\n-----END PUBLIC KEY-----\n"
+            },
+            "trov:hasComposition": {
+                "@id": "composition/1",
+                "@type": "trov:ArtifactComposition",
+                "trov:hasFingerprint": {
+                    "@id": "fingerprint",
+                    "@type": "trov:CompositionFingerprint",
+                    "trov:hash": {
+                        "trov:hashAlgorithm": "sha256",
+                        "trov:hashValue": "44863b03e9909b7100e05b02526909a346fd7455183f6619e0fe6198c89981e0"
+                    }
+                },
+                "trov:hasArtifact": [
+                    {
+                        "@id": "composition/1/artifact/0",
+                        "@type": "trov:ResearchArtifact",
+                        "trov:hash": {
+                            "trov:hashAlgorithm": "sha256",
+                            "trov:hashValue": "9aff257a73f24bb825ad0c6b0770e35a2c9ec3c08b7e4de22a6d4171ec3dd335"
+                        },
+                        "trov:mimeType": "text/csv"
+                    },
+                    {
+                        "@id": "composition/1/artifact/1",
+                        "@type": "trov:ResearchArtifact",
+                        "trov:hash": {
+                            "trov:hashAlgorithm": "sha256",
+                            "trov:hashValue": "f1ba9311a28def9b38f1a6ee6347d079067a1c76f7d5ac824a16f3188f487cde"
+                        },
+                        "trov:mimeType": "application/x-python"
+                    },
+                    {
+                        "@id": "composition/1/artifact/2",
+                        "@type": "trov:ResearchArtifact",
+                        "trov:hash": {
+                            "trov:hashAlgorithm": "sha256",
+                            "trov:hashValue": "ded41909058fcacbbc68de7927de17b5dc37ce2002c6b8699909a39816299e24"
+                        },
+                        "trov:mimeType": "text/csv"
+                    }
+                ]
+            },
+            "trov:hasArrangement": [
+                {
+                    "@id": "arrangement/0",
+                    "@type": "trov:ArtifactArrangement",
+                    "rdfs:comment": "Artifacts before execution",
+                    "trov:hasArtifactLocation": [
+                        {
+                            "@id": "arrangement/0/location/0",
+                            "@type": "trov:ArtifactLocation",
+                            "trov:artifact": {
+                                "@id": "composition/1/artifact/0"
+                            },
+                            "trov:path": "data/input.csv"
+                        },
+                        {
+                            "@id": "arrangement/0/location/1",
+                            "@type": "trov:ArtifactLocation",
+                            "trov:artifact": {
+                                "@id": "composition/1/artifact/1"
+                            },
+                            "trov:path": "scripts/analyze.py"
+                        }
+                    ]
+                },
+                {
+                    "@id": "arrangement/1",
+                    "@type": "trov:ArtifactArrangement",
+                    "rdfs:comment": "Artifacts after execution",
+                    "trov:hasArtifactLocation": [
+                        {
+                            "@id": "arrangement/1/location/0",
+                            "@type": "trov:ArtifactLocation",
+                            "trov:artifact": {
+                                "@id": "composition/1/artifact/0"
+                            },
+                            "trov:path": "data/input.csv"
+                        },
+                        {
+                            "@id": "arrangement/1/location/1",
+                            "@type": "trov:ArtifactLocation",
+                            "trov:artifact": {
+                                "@id": "composition/1/artifact/1"
+                            },
+                            "trov:path": "scripts/analyze.py"
+                        },
+                        {
+                            "@id": "arrangement/1/location/2",
+                            "@type": "trov:ArtifactLocation",
+                            "trov:artifact": {
+                                "@id": "composition/1/artifact/2"
+                            },
+                            "trov:path": "results/output.csv"
+                        }
+                    ]
+                }
+            ],
+            "trov:hasPerformance": [
+                {
+                    "@id": "trp/0",
+                    "@type": "trov:TrustedResearchPerformance",
+                    "rdfs:comment": "Execution of analysis script",
+                    "trov:wasConductedBy": {
+                        "@id": "trs"
+                    },
+                    "trov:startedAtTime": "2024-06-15T14:00:00",
+                    "trov:endedAtTime": "2024-06-15T14:25:00",
+                    "trov:accessedArrangement": {
+                        "@id": "trp/0/binding/0",
+                        "@type": "trov:ArrangementBinding",
+                        "trov:arrangement": {
+                            "@id": "arrangement/0"
+                        }
+                    },
+                    "trov:contributedToArrangement": {
+                        "@id": "trp/0/binding/1",
+                        "@type": "trov:ArrangementBinding",
+                        "trov:arrangement": {
+                            "@id": "arrangement/1"
+                        }
+                    },
+                    "trov:hasPerformanceAttribute": [
+                        {
+                            "@id": "trp/0/attribute/0",
+                            "@type": "trov:InternetIsolation",
+                            "trov:warrantedBy": {
+                                "@id": "trs/capability/0"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "trov:hasAttribute": [
+                {
+                    "@id": "tro/attribute/0",
+                    "@type": "trov:IncludesAllInputData",
+                    "trov:warrantedBy": {
+                        "@id": "trp/0/attribute/0"
+                    }
+                }
+            ]
+        }
+    ]
+}
