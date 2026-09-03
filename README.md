@@ -17,7 +17,7 @@ This repository does not define its own checks. It performs those defined by the
 | [`report.md`](report.md) | What the checks found. Generated. |
 | [`Dockerfile`](Dockerfile) | Requires `tro-checks` and `ai-coding-dev`.|
 | [`check-image`](check-image) | Asserts a built image has the commands its modules were required for. |
-| [`REVIEW.md`](REVIEW.md) | Who has read which version of which file. Generated. |
+| [`REVIEWS.md`](REVIEWS.md) | Who has read which version of which file. Generated. |
 
 ## Running it
 
@@ -28,7 +28,7 @@ make build-parent      # once, on a fresh clone
 make build-image
 ```
 
-Regenerate `report.md` and `REVIEW.md`:
+Regenerate `report.md` and `REVIEWS.md`:
 
 ```
 make build-reports
