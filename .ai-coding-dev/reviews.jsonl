@@ -12,3 +12,5 @@
 {"kind":"review","path":"repro-config","blob":"9a36329447d70ea9a0e0c2459458951ea0c14173","by":"Timothy McPhillips","date":"2026-09-03","type":"cursory"}
 {"kind":"review","path":"README.md","blob":"063c79f60811ef680583f79627a801f182804026","by":"Timothy McPhillips","date":"2026-09-03","type":"cursory"}
 {"kind":"review","path":"README.md","blob":"063c79f60811ef680583f79627a801f182804026","by":"Timothy McPhillips","date":"2026-09-03","type":"careful"}
+{"kind":"origin","path":"REVIEWS.md","origin":"generated"}
+{"kind":"review","path":"README.md","blob":"b4a736a478532673351b8d30ca67bce9ffa67717","by":"Timothy McPhillips","date":"2026-09-03","type":"careful"}
