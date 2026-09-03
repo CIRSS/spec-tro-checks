@@ -1,0 +1,12 @@
+{"kind":"origin","path":"Makefile","origin":"vendor"}
+{"kind":"origin","path":"Makefile-tests","origin":"vendor"}
+{"kind":"origin","path":"REVIEW.md","origin":"generated"}
+{"kind":"origin","path":"report.md","origin":"generated"}
+{"kind":"origin","path":".ai-coding-dev/.gitignore","origin":"vendor"}
+{"kind":"origin","path":".ai-coding-dev/reviews.jsonl","origin":"generated"}
+{"kind":"origin","path":"tro.jsonld","origin":"generated"}
+{"kind":"review","path":".gitignore","blob":"c4c56958a3d480f37bbd906ecfb0443e67e17866","by":"Timothy McPhillips","date":"2026-09-03","type":"cursory"}
+{"kind":"review","path":"check-image","blob":"5e7593677c2ecc46285a997df7cd3f55a10ff595","by":"Timothy McPhillips","date":"2026-09-03","type":"cursory"}
+{"kind":"review","path":"Dockerfile","blob":"e8a441412e9100a178c7d3bdbd6ce3a7e70ec5e7","by":"Timothy McPhillips","date":"2026-09-03","type":"cursory"}
+{"kind":"review","path":"Dockerfile-parent","blob":"0d27ccca0e85cfe18664dd61c320a379d139f97b","by":"Timothy McPhillips","date":"2026-09-03","type":"cursory"}
+{"kind":"review","path":"repro-config","blob":"9a36329447d70ea9a0e0c2459458951ea0c14173","by":"Timothy McPhillips","date":"2026-09-03","type":"cursory"}
