@@ -18,3 +18,4 @@
 {"kind":"origin","path":"reports/complete-example.md","origin":"generated"}
 {"kind":"origin","path":"subjects/complete-example-corrected.jsonld","origin":"generated"}
 {"kind":"origin","path":"reports/complete-example-corrected.md","origin":"generated"}
+{"kind":"review","path":"repro-config","blob":"4921e99bf60c852e24583846fe6803c005a19062","by":"Timothy McPhillips","date":"2026-09-04","type":"cursory"}
