@@ -19,3 +19,11 @@
 {"kind":"origin","path":"subjects/complete-example-corrected.jsonld","origin":"generated"}
 {"kind":"origin","path":"reports/complete-example-corrected.md","origin":"generated"}
 {"kind":"review","path":"repro-config","blob":"4921e99bf60c852e24583846fe6803c005a19062","by":"Timothy McPhillips","date":"2026-09-04","type":"cursory"}
+{"kind":"review","path":"README.md","blob":"4051647c87a230c409a2cdd3b693ff39c57e25c0","by":"Timothy McPhillips","date":"2026-09-05","type":"careful"}
+{"kind":"review","path":"candidates/complete-example.jsonld","blob":"4942217385098dc5f2c6a5c3e7748960754161c9","by":"Timothy McPhillips","date":"2026-09-05","type":"cursory"}
+{"kind":"review","path":"candidates/complete-example-corrected.jsonld","blob":"c9f19159ece4a49fbc5415bf4c97c69b4a94ab8e","by":"Timothy McPhillips","date":"2026-09-05","type":"cursory"}
+{"kind":"review","path":"candidates/complete-example-tier-2.jsonld","blob":"5dcd8e07befe99437a5756ea199fa3231bacf818","by":"Timothy McPhillips","date":"2026-09-05","type":"cursory"}
+{"kind":"origin","path":"reports/complete-example-tier-2.md","origin":"generated"}
+{"kind":"review","path":"reports/complete-example.md","blob":"7ed25fd392b4f3adec56fbe0ac6bf673b655ced0","by":"Timothy McPhillips","date":"2026-09-05","type":"cursory"}
+{"kind":"review","path":"reports/complete-example-corrected.md","blob":"63c844212162f5caf3b06adfd553463294bfe13b","by":"Timothy McPhillips","date":"2026-09-05","type":"cursory"}
+{"kind":"review","path":"reports/complete-example-tier-2.md","blob":"784c65a46a1b586a1ded82beda722e70c2ce6e9d","by":"Timothy McPhillips","date":"2026-09-05","type":"cursory"}
