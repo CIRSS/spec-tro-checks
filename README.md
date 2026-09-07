@@ -2,8 +2,8 @@
 
 Checks three candidates based on the TRACE specification's own [Complete
 Example](https://transparency-certified.github.io/trace-specification/docs/tro-declaration-format#complete-example)
-against [`tro-checks`](https://github.com/CIRSS/tro-checks), and reports what it
-found.
+against [`tro-checks`](https://github.com/transparency-certified/tro-checks),
+and reports what it found.
 
 This repository does not define its own checks. It performs those defined by
 the `tro-checks` module on the candidates in this repository.

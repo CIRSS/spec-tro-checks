@@ -40,3 +40,6 @@
 {"kind":"review","path":"reports/spec-example-2026-04-08.md","blob":"0cc1440a0435b3bc409ea70414b8c0916506f7ff","by":"Timothy McPhillips","date":"2026-09-07","type":"cursory"}
 {"kind":"review","path":"reports/spec-example-2026-04-08-with-base-and-hashes.md","blob":"d17c5b501514f5aebe26bccd4478769a817c3114","by":"Timothy McPhillips","date":"2026-09-07","type":"cursory"}
 {"kind":"review","path":"reports/spec-example-2026-04-08-with-node-ids.md","blob":"72ae45a3e8f2b4806e4c5b0d088715896a64f51d","by":"Timothy McPhillips","date":"2026-09-07","type":"cursory"}
+{"kind":"review","path":"README.md","blob":"992b25161bfaf77f3d7e9ca3b74cd7e59855a57e","by":"Timothy McPhillips","date":"2026-09-07","type":"careful"}
+{"kind":"review","path":"repro-config","blob":"e3168a304b784c32997f62da54e8e55ad4e34a22","by":"Timothy McPhillips","date":"2026-09-07","type":"cursory"}
+{"kind":"review","path":"Dockerfile","blob":"67366dd0fd3efbd58648c1ccb70484f23a432834","by":"Timothy McPhillips","date":"2026-09-07","type":"careful"}
