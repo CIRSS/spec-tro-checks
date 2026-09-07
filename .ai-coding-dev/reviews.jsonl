@@ -43,3 +43,6 @@
 {"kind":"review","path":"README.md","blob":"992b25161bfaf77f3d7e9ca3b74cd7e59855a57e","by":"Timothy McPhillips","date":"2026-09-07","type":"careful"}
 {"kind":"review","path":"repro-config","blob":"e3168a304b784c32997f62da54e8e55ad4e34a22","by":"Timothy McPhillips","date":"2026-09-07","type":"cursory"}
 {"kind":"review","path":"Dockerfile","blob":"67366dd0fd3efbd58648c1ccb70484f23a432834","by":"Timothy McPhillips","date":"2026-09-07","type":"careful"}
+{"kind":"origin","path":"candidates/spec-example-2026-04-08.jsonld","origin":"vendor"}
+{"kind":"origin","path":"candidates/spec-example-2026-04-08-with-base-and-hashes.jsonld","origin":"authored"}
+{"kind":"origin","path":"candidates/spec-example-2026-04-08-with-node-ids.jsonld","origin":"authored"}
