@@ -36,7 +36,7 @@
                 ]
             },
             "trov:createdWith": {
-                "@id": "tool",
+                "@id": "tro/createdWith",
                 "@type": "schema:SoftwareApplication",
                 "schema:name": "tro-utils",
                 "schema:softwareVersion": "0.2.2"

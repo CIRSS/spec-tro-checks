@@ -1,0 +1,27 @@
+# Report
+
+Candidate: `spec-example-2026-04-08-with-base-and-hashes.jsonld`
+
+The 2026-04-08 example with an `@base` in its `@context` and a sha256 value in each of the four hash fields. Every value is computed from the artifact's own `@id` for reproducibility's sake only.
+
+Target: Tier 1 -- Self-Contained (declared)
+
+## Assessment
+
+- Tier 1 -- Self-Contained: met
+
+## Findings
+
+Every expectation in the target was put to `jsonschema-validate` and `ajv-validate`.
+
+### composition-fingerprint (Tier 1): met
+
+### context-base (Tier 2): not claimed
+
+### hash-form (Tier 1): met
+
+### node-id-present (Tier 2): not claimed
+
+### tro-minimal (Tier 1): met
+
+### trs-typed (Tier 1): met

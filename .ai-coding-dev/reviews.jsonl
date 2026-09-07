@@ -27,3 +27,13 @@
 {"kind":"review","path":"reports/complete-example.md","blob":"7ed25fd392b4f3adec56fbe0ac6bf673b655ced0","by":"Timothy McPhillips","date":"2026-09-05","type":"cursory"}
 {"kind":"review","path":"reports/complete-example-corrected.md","blob":"63c844212162f5caf3b06adfd553463294bfe13b","by":"Timothy McPhillips","date":"2026-09-05","type":"cursory"}
 {"kind":"review","path":"reports/complete-example-tier-2.md","blob":"784c65a46a1b586a1ded82beda722e70c2ce6e9d","by":"Timothy McPhillips","date":"2026-09-05","type":"cursory"}
+{"kind":"review","path":"README.md","blob":"a1e67127a08cf196aaefe726da9b3cf27588aa19","by":"Timothy McPhillips","date":"2026-09-07","type":"careful"}
+{"kind":"review","path":"candidates/manifest.json","blob":"4f78a4b763a4881f66c686f74ee0cc165a923b59","by":"Timothy McPhillips","date":"2026-09-07","type":"careful"}
+{"kind":"review","path":"candidates/spec-example-2026-04-08.jsonld","blob":"4942217385098dc5f2c6a5c3e7748960754161c9","by":"Timothy McPhillips","date":"2026-09-07","type":"cursory"}
+{"kind":"review","path":"candidates/spec-example-2026-04-08-with-base-and-hashes.jsonld","blob":"c9f19159ece4a49fbc5415bf4c97c69b4a94ab8e","by":"Timothy McPhillips","date":"2026-09-07","type":"cursory"}
+{"kind":"review","path":"candidates/spec-example-2026-04-08-with-node-ids.jsonld","blob":"fb772b6376b683f1940e9d2fc940ee992479171a","by":"Timothy McPhillips","date":"2026-09-07","type":"cursory"}
+{"kind":"review","path":"README.md","blob":"d5455ff2a15b26816042aedf6b2a7d770d1e1963","by":"Timothy McPhillips","date":"2026-09-07","type":"careful"}
+{"kind":"review","path":"candidates/manifest.json","blob":"faeeb429cc080e4dd2e4de2475b32c79a6c22177","by":"Timothy McPhillips","date":"2026-09-07","type":"careful"}
+{"kind":"review","path":"reports/spec-example-2026-04-08.md","blob":"fbd9e89497f240dbb33e2fa8a50f027f0dd2273c","by":"Timothy McPhillips","date":"2026-09-07","type":"cursory"}
+{"kind":"review","path":"reports/spec-example-2026-04-08-with-base-and-hashes.md","blob":"4e05d45989b3fcbcfc419e11784ebd6a0ffc06e8","by":"Timothy McPhillips","date":"2026-09-07","type":"cursory"}
+{"kind":"review","path":"reports/spec-example-2026-04-08-with-node-ids.md","blob":"87d83d44d4e8b4fa402d7dae74b98685b60717e2","by":"Timothy McPhillips","date":"2026-09-07","type":"cursory"}
