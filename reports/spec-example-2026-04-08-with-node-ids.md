@@ -17,12 +17,12 @@ Every expectation in the target was put to `jsonschema-validate` and `ajv-valida
 
 ### composition-fingerprint (Tier 1): met
 
-### context-base (Tier 2): met
-
 ### hash-form (Tier 1): met
-
-### node-id-present (Tier 2): met
 
 ### tro-minimal (Tier 1): met
 
 ### trs-typed (Tier 1): met
+
+### context-base (Tier 2): met
+
+### node-id-present (Tier 2): met
