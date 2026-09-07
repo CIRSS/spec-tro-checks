@@ -12,6 +12,6 @@ ENV TRACE 'https://raw.githubusercontent.com/transparency-certified/${1}/${2}/ex
 
 RUN repro.require tro-checks main ${TRACE} --report
 
-RUN repro.require ai-coding-dev main ${CIRSS} --report
+RUN repro.require review-ledger main ${CIRSS} --report
 
 CMD  /bin/bash -il
