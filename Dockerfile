@@ -8,7 +8,9 @@ RUN bash /repro/dist/boot-setup
 
 USER repro
 
-RUN repro.require tro-checks main ${CIRSS} --report
+ENV TRACE 'https://raw.githubusercontent.com/transparency-certified/${1}/${2}/exports'
+
+RUN repro.require tro-checks main ${TRACE} --report
 
 RUN repro.require ai-coding-dev main ${CIRSS} --report
 
