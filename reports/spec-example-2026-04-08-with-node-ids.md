@@ -8,12 +8,15 @@ Target: Tier 2 -- Linkable-Data (declared)
 
 ## Assessment
 
+- Tier 0 -- Well-Formed: met
 - Tier 1 -- Self-Contained: met
 - Tier 2 -- Linkable-Data: met
 
 ## Findings
 
 Every expectation in the target was put to `jsonschema-validate` and `ajv-validate`.
+
+### is-a-node-object-or-an-array-of-them (Tier 0): met
 
 ### composition-fingerprint (Tier 1): met
 
