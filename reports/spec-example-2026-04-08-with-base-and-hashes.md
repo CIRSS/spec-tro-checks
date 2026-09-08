@@ -15,13 +15,19 @@ Target: Tier 1 -- Self-Contained (declared)
 
 Every expectation in the target was put to `jsonschema-validate` and `ajv-validate`.
 
-### is-a-node-object-or-an-array-of-them (Tier 0): met
+### has-well-formed-context (Tier 0): met
+
+### has-well-formed-graph (Tier 0): met
+
+### node-rooted (Tier 0): met
 
 ### composition-fingerprint (Tier 1): met
 
 ### hash-form (Tier 1): met
 
 ### tro-minimal (Tier 1): met
+
+### trov-terms-known (Tier 1): met
 
 ### trs-typed (Tier 1): met
 
