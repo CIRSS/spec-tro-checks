@@ -28,10 +28,10 @@ Every expectation in the target was put to `jsonschema-validate` and `ajv-valida
 `jsonschema-validate`:
 
 ```
-INVALID: /@graph/0/trov:hasComposition/trov:hasArtifact/0/trov:hash/trov:hashValue: 'aaa1...' does not match '^[0-9a-f]{64}$'
-INVALID: /@graph/0/trov:hasComposition/trov:hasArtifact/1/trov:hash/trov:hashValue: 'bbb2...' does not match '^[0-9a-f]{64}$'
-INVALID: /@graph/0/trov:hasComposition/trov:hasArtifact/2/trov:hash/trov:hashValue: 'ccc3...' does not match '^[0-9a-f]{64}$'
-INVALID: /@graph/0/trov:hasComposition/trov:hasFingerprint/trov:hash/trov:hashValue: 'a1b2c3d4...' does not match '^[0-9a-f]{64}$'
+INVALID: /@graph/0/trov:hasComposition/trov:hasArtifact/0/trov:hash/trov:hashValue: a sha256 value is 64 lowercase hexadecimal digits
+INVALID: /@graph/0/trov:hasComposition/trov:hasArtifact/1/trov:hash/trov:hashValue: a sha256 value is 64 lowercase hexadecimal digits
+INVALID: /@graph/0/trov:hasComposition/trov:hasArtifact/2/trov:hash/trov:hashValue: a sha256 value is 64 lowercase hexadecimal digits
+INVALID: /@graph/0/trov:hasComposition/trov:hasFingerprint/trov:hash/trov:hashValue: a sha256 value is 64 lowercase hexadecimal digits
 ```
 
 `ajv-validate`:
